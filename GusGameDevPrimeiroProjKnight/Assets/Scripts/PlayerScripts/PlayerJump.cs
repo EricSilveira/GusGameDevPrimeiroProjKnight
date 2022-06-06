@@ -62,7 +62,7 @@ public class PlayerJump : MonoBehaviour
         //2.0  - Eh pego a posicao do personagem, a posicao do groundCheck e se eh chao pela layer
         //isOnFloor = Physics2D.Linecast(transform.position, groundCheck.position, whatIsGround);
 
-        //2.0  - Eh pego a posicao do groundCheck, o raio do circulo e se eh chao pela layer       
+        //3.0  - Eh pego a posicao do groundCheck, o raio do circulo e se eh chao pela layer       
         //isOnFloor = Physics2D.OverlapCircle(groundCheck.position,radius ,whatIsGround);
 
         //4.0  - Eh verificado o chao pela layer       
